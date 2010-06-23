@@ -1,5 +1,5 @@
 /*
- * jQuery Image Slider
+ * jQuery Image Slider v0.2
  *
  * Copyright (c) 2010 David Turner
  * Site: http://david,turner.name/
