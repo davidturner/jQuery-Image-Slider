@@ -5,8 +5,7 @@
 
 div.img, div.fullimg{position:relative;background:#f2f2f2;padding:10px;margin:0 auto 20px;width:460px;}
 div.img{
-	line-height:0;
-	height:180px;
+	line-height:0;   
 	overflow:hidden;
 	margin-bottom:40px;
 }
@@ -31,8 +30,7 @@ p.bottom {
 	line-height:20px;
 }
 
-.covered {
-	height:180px;
+.covered {          
 	overflow:hidden;
 }
 
