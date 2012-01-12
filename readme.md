@@ -4,6 +4,7 @@ The jQuery Image Slider is a piece of jQuery code I produced during the second y
 
 Whilst it started out as a very rough and ready (and admittedly sloppy) piece of code, I have cleaned it up somewhat and made sure that it works in as flexible a manner as possible. This is something I intend to continue in the future.
 
+v0.6 - Courtesy of GitHub user gravataLonga there is now some additional functionality built into the plugin.
 v0.5 - added some method of plugin jquery.  
 v0.4 - Cleaned up performance of code.   
 v0.3 - Improved functionality of plugin, made it easier to use, and started making use of the HTML5 ability to use data- to create custom attributes to HTML elements.  
