@@ -23,8 +23,8 @@ v0.0 - Basic Functionality for personal use
 ## Callbacks:
  
 **onStart** it's called when the plugin is initialize.  
-**onClick** it's called when slide is click to animated, this is called before animated.
-**onEnd** it's called when the animation is finished.
+**onClick** it's called when slide is click to animated, this is called before animated.  
+**onEnd** it's called when the animation is finished.  
 
 ## Configuration
 
