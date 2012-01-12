@@ -6,12 +6,16 @@ Whilst it started out as a very rough and ready (and admittedly sloppy) piece of
 
 ## Version
 
-v0.5 - Added some method of plugin jquery.  
+v0.5 - Callback functionality, and documentation for them, added by GitHub user [gravataLonga](https://github.com/gravataLonga) (see below for documentation).  
 v0.4 - Cleaned up performance of code.   
 v0.3 - Improved functionality of plugin, made it easier to use, and started making use of the HTML5 ability to use data- to create custom attributes to HTML elements.  
 v0.2 - Added support for other elements than div (mainly for support of the html5 figure element) [released on web & github]  
 v0.1 - Converted from raw jQuery to a jQuery Plugin [released on web]  
 v0.0 - Basic Functionality for personal use  
+
+##Credits
+
+gravataLonga for adding functionality for callbacks for onClick, onStart and onEnd.
 
  * * * 
  
