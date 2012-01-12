@@ -9,16 +9,36 @@
 	</head>
 	
 	<body>
-		<div class="img"><img src="_img/google.jpg" alt="Google - Search Engine" /></div>
+		<div class="img">
+				<img src="_img/google.jpg" alt="Google - Search Engine" />
+		</div>
 		
-		<div class="img"><img src="_img/google-search.jpg" alt="Google - Search Engine Results" /></div>                                                                 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<div class="img">
+				<img src="_img/google.jpg" alt="Google - Search Engine" />
+		</div>
+		
+		
+		<div class="img">
+			<img src="_img/google-search.jpg" alt="Google - Search Engine Results" />
+		</div>   
+		
+		                                                              
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="_js/jquery.imgslide.js"></script>
 		<script>
 		$(window).load(function () {
 			$('.img').imgslide({
-				height: 100
-			});                        
+				height: 100,
+				onEnd: function (){
+					alert('has finished');
+				},
+				onStart: function (){
+					alert('Img has start!');
+				},
+				onClick: function (){
+					alert("onClick!")
+				}
+			});                      
 		});
 		</script>
 	</body>
