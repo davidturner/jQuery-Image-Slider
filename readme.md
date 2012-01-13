@@ -32,7 +32,7 @@ gravataLonga for adding functionality for callbacks for onClick, onStart and onE
 
 ## Configuration
 
-* hideDuration [default: 220]  
+* height [default: 220]  
 * hideDuration [default: 0]
 * toggleDuration [default: 1500(1,5s)]
 
